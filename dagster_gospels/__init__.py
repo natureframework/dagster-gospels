@@ -1,4 +1,7 @@
 from dagster import Definitions
-from .assets.create import create as create_assets
+from .assets.matthew import matthew
+from .assets.mark import mark
+from .assets.luke import luke
+from .assets.john import john
 
-defs = Definitions(assets=create_assets())
+defs = Definitions(assets=[matthew, mark, luke, john])

@@ -1,5 +1,0 @@
-ROOT = "https://raw.githubusercontent.com/ivandustin/bible/main/data/new"
-MATTHEW = f"{ROOT}/01-matthew.csv"
-MARK = f"{ROOT}/02-mark.csv"
-LUKE = f"{ROOT}/03-luke.csv"
-JOHN = f"{ROOT}/04-john.csv"
